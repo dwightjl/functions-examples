@@ -48,7 +48,7 @@ async function main() {
   
 
     // Default example
-    const source = await fs.readFile('./examples/Functions-request-source.js', 'utf8')
+    const source = await fs.readFile('./Functions-request-source.js', 'utf8')
     const args = ["ETH", "USD"]
 
     // Tutorial 6
